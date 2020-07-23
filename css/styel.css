@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+width: 100%;
+padding: 20px;
+}
+.container{
+width: 80%;
+margin: 0 auto;
+overflow: hidden;
+}
+.logo{
+width:20%;
+float: left;
+}
+.logo img{
+	width: 100%;
+}
+.h_s_btn{
+	width: 35%;
+	float: right;
+    margin-top: 25px;
+}
+.btn{
+	font-size: 18px;
+	padding: 5px;
+}
+.btn i{
+	padding:0 5px;
+}
+.btn:hover{
+	background-color: blue;
+	color: #fff;
+}
+
+/*nav start*/
+.navbar{
+	background-color: black;
+}
+.menu{}
+.menu ul{}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 19px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 15px 18px;
+	border-right: 1px solid #fff;
+}
+.menu ul li a:hover{
+	background-color: blue;
+}
+/*nav end*/
+.banner img{
+   width: 100%;
+}
+.about{
+	padding: 40px 0; 
+}
+h1{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #04043e;
+	margin-bottom: 15px;
+}
+p{
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+}
+.result{
+	background-color: #F3FFCF;
+	padding: 40px 0;
+}
+.container2{
+	width: 30%;
+	margin: 0 auto;
+	
+}
+.roll{
+	font-family: sans-serif;
+	font-size: 18px;
+	padding: 5px;
+	width: 100%;
+	background-color: #D8E8FF;
+}
+.year{
+	font-family: sans-serif;
+	font-size: 18px;
+	padding: 5px;
+	width: 100%;
+	background-color: #D8E8FF;
+}
+.r_btn{
+	font-family: sans-serif;
+	font-size: 18px;
+	padding: 5px 15px;
+}
+.r_btn:hover{
+	color: #fff;
+	background-color: blue;
+}
+label{
+	font-family: sans-serif;
+	font-size: 18px;
+	padding: 5px;
+}
+footer{
+	width: 100%;
+	background-color: #1b1b1b;
+	padding: 40px 0;
+}
+.single_item{
+width: 18%;
+float: left;
+margin-right: 2.5%; 
+}
+.single_item:last-child {
+	margin-right:0; 
+}
+h4{
+	font-family: sans-serif;
+	font-size: 24px;
+	color: #fff;
+	padding: 12px 0;
+}
+.single_item ul{}
+.single_item ul li{
+	list-style: none;
+}
+.single_item ul li a{
+	font-family: sans-serif;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 0;
+}
+.single_item ul li a i{
+	padding-right: 15px;
+}
+.single_item ul li a:hover{
+	color:red;
+}
